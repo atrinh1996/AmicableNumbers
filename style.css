@@ -46,3 +46,11 @@ body, #btn, input{
     padding:20px;
     border-bottom:2px solid #000;
 }
+
+/* Display on Mobile */
+@media(max-width:680px){
+    .form-item{
+        display:block;
+    }
+    input{width:100%;}
+}
