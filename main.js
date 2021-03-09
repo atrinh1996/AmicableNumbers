@@ -62,7 +62,7 @@ function main() {
                             not amicable</p>`;
     }
 
-    // Check correctness by using console log
-    console.log(`${num1}: factors = ${num1Factors}, sum = ${sum1}`);
-    console.log(`${num2}: factors = ${num2Factors}, sum = ${sum2}`);
+    // Check correctness by using displaying the factors and sums in alert.
+    alert(`${num1}: factors = ${num1Factors}, sum = ${sum1}`);
+    alert(`${num2}: factors = ${num2Factors}, sum = ${sum2}`);
 }
