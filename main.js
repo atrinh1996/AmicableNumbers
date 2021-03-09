@@ -64,9 +64,9 @@ function main() {
 
     // Check correctness by displaying factos and sums
     let factorDisplay = document.querySelector("#factors");
-    factorDisplay.innerHTML = `<p>${num1}: factors = ${num1Factors}, 
+    factorDisplay.innerHTML = `<p>${num1}: factors = [${num1Factors}], 
                                 sum = ${sum1}</p> 
                                 <br> 
-                                <p>${num2}: factors = ${num2Factors}, 
+                                <p>${num2}: factors = [${num2Factors}], 
                                 sum = ${sum2}</p>`;
 }
