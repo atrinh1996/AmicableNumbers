@@ -1,0 +1,59 @@
+/* Styling for Amicable Numbers, HW6 */
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body, #btn, input{
+    font-size: 20px;
+}
+
+#main-header{
+    line-height: 1.4;
+    background-color: rgb(148, 251, 253);
+    border-radius: 50px;
+}
+
+#btn{
+    width: 50%;
+    margin:auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#number-query{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.form-item{
+    margin:10px;
+    justify-content: center;
+    text-align: left;
+}
+
+#results{
+    margin: 50px;
+    padding:20px;
+}
+
+#factors{
+    border-bottom:2px solid #000;
+}
+
+/* Display on Mobile */
+@media(max-width:680px){
+    .form-item{
+        display:block;
+    }
+    input{width:100%;}
+}
